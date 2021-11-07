@@ -176,9 +176,9 @@
   <project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
   <!-- Nenggala Project additions -->
-  <project path="vendor/lineage" name="nenggala-project/android_vendor_lineage" />
+  <project path="vendor/lineage" name="nenggala-project/android_vendor_nenggala" />
   <project path="packages/apps/SetupWizard" name="nenggala-project/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Settings" name="nenggala-project/android_packages_apps_Settings" groups="pdk-fs" />
-  <project path="lineage-sdk" name="nenggala-project/android_lineage-sdk" />
+  <project path="lineage-sdk" name="nenggala-project/android_nenggala-sdk" />
 
 </manifest>

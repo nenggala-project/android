@@ -160,7 +160,7 @@
   <project path="vendor/qcom/opensource/wfd-commonsys" remote="lineage" name="LineageOS/android_vendor_qcom_opensource_wfd-commonsys" groups="qcom,pdk" />
 
   <!-- Infrastructure -->
-  <project path="lineage/ansible" remote="lineage" name="LineageOS/ansible" groups="infra" revision="master" />
+  <!--<project path="lineage/ansible" remote="lineage" name="LineageOS/ansible" groups="infra" revision="master" />
   <project path="lineage/charter" remote="lineage" name="LineageOS/charter" groups="infra" revision="master" />
   <project path="lineage/crowdin" remote="lineage" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
   <project path="lineage/cve" remote="lineage" name="LineageOS/cve_tracker" groups="infra" revision="master" />
@@ -168,11 +168,11 @@
   <project path="lineage/mirror" remote="lineage" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" remote="lineage" name="LineageOS/slackbot" groups="infra" revision="master" />
   <project path="lineage/website" remote="lineage" name="LineageOS/www" groups="infra" revision="master" />
-  <project path="lineage/wiki" remote="lineage" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+  <project path="lineage/wiki" remote="lineage" name="LineageOS/lineage_wiki" groups="infra" revision="master" />-->
 
   <!-- Tools -->
-  <project path="lineage/contributors-cloud-generator" remote="lineage" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <project path="lineage/scripts" remote="lineage" name="LineageOS/scripts" groups="tools" revision="master" />
+  <!--<project path="lineage/contributors-cloud-generator" remote="lineage" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <project path="lineage/scripts" remote="lineage" name="LineageOS/scripts" groups="tools" revision="master" />-->
 
   <!-- Nenggala Project additions -->
   <project path="vendor/nenggala" name="nenggala-project/android_vendor_nenggala" />

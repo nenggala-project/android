@@ -2,6 +2,7 @@
 <manifest>
 
   <remote  name="github"
+           clone-depth="2"
            fetch=".." />
   
   <remote  name="lineage"
@@ -39,7 +40,7 @@
   </project>
   <project path="art" remote="lineage" name="LineageOS/android_art" groups="pdk" />
   <project path="bionic" remote="lineage" name="LineageOS/android_bionic" groups="pdk" />
-  <project path="bootable/recovery" remote="lineage" name="LineageOS/android_bootable_recovery" groups="pdk" />
+  <project path="bootable/recovery" remote="github" name="nenggala-project/android_bootable_recovery" groups="pdk" />
   <project path="compatibility/cdd" name="platform/compatibility/cdd" groups="pdk" remote="aosp" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs,pdk-fs" remote="aosp" />

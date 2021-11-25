@@ -24,7 +24,7 @@
   <project path="hardware/lineage/livedisplay" remote="lineage" name="LineageOS/android_hardware_lineage_livedisplay" />
   <project path="packages/apps/AudioFX" remote="lineage" name="LineageOS/android_packages_apps_AudioFX" />
   <project path="packages/apps/Backgrounds" remote="lineage" name="LineageOS/android_packages_apps_Backgrounds" />
-  <project path="packages/apps/Eleven" remote="lineage" name="LineageOS/android_packages_apps_Eleven" />
+  <project path="packages/apps/Eleven" remote="github" name="nenggala-project/android_packages_apps_Eleven" />
   <!--<project path="packages/apps/Email" remote="lineage" name="LineageOS/android_packages_apps_Email" />-->
   <project path="packages/apps/Etar" remote="lineage" name="LineageOS/android_packages_apps_Etar" />
   <project path="packages/apps/ExactCalculator" remote="lineage" name="LineageOS/android_packages_apps_ExactCalculator" />

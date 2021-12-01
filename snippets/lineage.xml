@@ -33,7 +33,7 @@
   <project path="packages/apps/FlipFlap" remote="lineage" name="LineageOS/android_packages_apps_FlipFlap" />
   <project path="packages/apps/Jelly" remote="lineage" name="LineageOS/android_packages_apps_Jelly" />
   <project path="packages/apps/LineageCustomizer" remote="lineage" name="LineageOS/android_packages_apps_LineageCustomizer" />
-  <project path="packages/apps/LineageParts" remote="github" name="LineageOS/android_packages_apps_NenggalaParts" />
+  <project path="packages/apps/LineageParts" remote="github" name="nenggala-project/android_packages_apps_NenggalaParts" />
   <project path="packages/apps/Profiles" remote="lineage" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Recorder" remote="lineage" name="LineageOS/android_packages_apps_Recorder" />
   <project path="packages/apps/Seedvault" remote="lineage" name="LineageOS/android_packages_apps_Seedvault" />

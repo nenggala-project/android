@@ -3,7 +3,7 @@
 
   <remote  name="github"
            fetch=".."
-           revision="review.lineageos.org" />
+           />
 
   <remote  name="nenggala"
            fetch="https://github.com"

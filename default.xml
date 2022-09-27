@@ -3,11 +3,11 @@
 
   <remote  name="github"
            fetch=".."
-           revision="11.1" />
+           revision="review.lineageos.org" />
 
   <remote  name="nenggala"
-           fetch=".."
-           review="review.lineageos.org" />
+           fetch="https://github.com"
+           review="11.1" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />

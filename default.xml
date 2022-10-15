@@ -2,18 +2,22 @@
 <manifest>
 
   <remote  name="github"
+           clone-depth="1"
            fetch=".."
            />
 
   <remote  name="nenggala"
            fetch="https://github.com"
+           clone-depth="1"
            revision="11.1" />
 
   <remote  name="private"
+           clone-depth="1"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
+           clone-depth="1"
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r46" />
 

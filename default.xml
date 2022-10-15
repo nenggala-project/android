@@ -12,12 +12,10 @@
            revision="11.1" />
 
   <remote  name="private"
-           clone-depth="1"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
-           clone-depth="1"
            review="android-review.googlesource.com"
            revision="refs/tags/android-11.0.0_r46" />
 
@@ -578,7 +576,7 @@
   <project path="packages/apps/SafetyRegulatoryInfo" name="LineageOS/android_packages_apps_SafetyRegulatoryInfo" groups="pdk-fs" />
   <project path="packages/apps/SampleLocationAttribution" name="platform/packages/apps/SampleLocationAttribution" groups="pdk-fs" remote="aosp" />
   <project path="packages/apps/SecureElement" name="LineageOS/android_packages_apps_SecureElement" groups="apps_se,pdk-fs" />
-  <project path="packages/apps/Settings" name="LineageOS/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/Settings" name="nenggala-project/android_packages_apps_Settings" groups="pdk-fs" remote="nenggala" />
   <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />
   <project path="packages/apps/StorageManager" name="LineageOS/android_packages_apps_StorageManager" groups="pdk-fs" />
@@ -783,6 +781,8 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
   <include name="snippets/lineage.xml" />
+  <include name="snippets/alioth.xml" />
+  <include name="snippets/gta4xl.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="device/xiaomi/alioth" remote="nenggala" name="nenggala-project/android_device_xiaomi_alioth" />
-  <project path="device/xiaomi/sm8250-common" remote="nenggala" name="nenggala-project/android_device_xiaomi_sm8250-common" />
-  <project path="kernel/xiaomi/sm8250" remote="nenggala" name="nenggala-project/android_kernel_xiaomi_sm8250" />
-  <project path="vendor/xiaomi/sm8250-common" remote="nenggala" name="nenggala-project/vendor_xiaomi_sm8250-common" />
-  <project path="vendor/xiaomi/alioth" remote="nenggala" name="nenggala-project/vendor_xiaomi_alioth" />
-  <project path="hardware/xiaomi" remote="nenggala" name="nenggala-project/android_hardware_xiaomi" />
-</manifest>

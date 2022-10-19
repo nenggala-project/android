@@ -1057,6 +1057,9 @@
 
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixel.xml" />
+  <include name="snippets/alioth.xml" />
+  <include name="snippets/gta4xl.xml" />
+
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 </manifest>
